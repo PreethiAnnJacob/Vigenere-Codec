@@ -18,7 +18,7 @@
 
 # ---------------Time: Preliminaries---------------------
 # time.time() returns the number of seconds passed since epoch (the point where time begins)
-# time.localtme() is used to convert a time expressed in seconds since the epoch to a time.struct_time object in local time. 
+# time.localtime() is used to convert a time expressed in seconds since the epoch to a time.struct_time object in local time. 
 # time.asctime() used to convert a tuple or a time.struct_time object representing a time as returned by time.gmtime() or time.localtime() method to a string of the following form: Day Mon Date Hour:Min:Sec Year. For example: Thu 08 22 10:46:56 2019
 #-------------------------------------------------------
 
