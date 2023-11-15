@@ -133,7 +133,6 @@ def decode(key, ciphertext):
 
 # Runbutton - Encrypt/Decrypt Driver
 def Run():
-	# print('Message = ',(Msg.get()))
 	m = message.get() # either plaintext/ciphertext received from MessageEntry
 	k = key.get()
 	if (mode.get()=='e'):
